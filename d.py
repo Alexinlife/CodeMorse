@@ -1,4 +1,4 @@
-form gpiozero import LED
+from gpiozero import LED
 from time import sleep
 led.on()
 sleep(0.75)
