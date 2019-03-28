@@ -2,17 +2,15 @@ from gpiozero import LED
 from time import sleep
 
 led = LED(17)
-
-while True:
-led.on
+led.on()
 sleep(0.75)
-led.off
+led.off()
 sleep(0.25)
-led.on
+led.on()
 sleep(0.75)
-led.off
+led.off()
 sleep(0.25)
-led.on
+led.on()
 sleep(0.75)
-led.off
+led.off()
 sleep(0.75)
